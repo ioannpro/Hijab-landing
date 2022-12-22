@@ -68,9 +68,26 @@ h1, h2, h3, h4, h5, h6, a, p {
 /* Intro */
 
 .intro {
-	height: 100vh;
+	height: 720px;
+	padding-top: 100px;
+
 	background: #31344e url("./img/intro.png") center no-repeat;
 	background-size: cover;
+}
+
+.intro__headline {
+	padding-top: 150px;
+	color: #585858;
+	font-weight: 800;
+	font-size: 83px;
+}
+
+.intro__text {
+	padding-top: 65px;
+	font-size: 20px;
+	color: #585858;
+	font-weight: 400;
+	font-family: "Montserrat";
 }
 
 
