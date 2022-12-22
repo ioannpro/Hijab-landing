@@ -1,0 +1,77 @@
+
+body {
+	margin: 0 auto;
+	font-family: "Nunito", sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+	margin: 0 auto;
+}
+
+/* Container */
+
+.container {
+	margin: 0 85px;
+	width: 100%;
+	max-width: 605px;
+}
+
+/* Header */
+
+.header {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.logo {
+
+}
+
+.header__inner {
+	padding-top: 115px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+/* Nav */
+
+.nav {
+	display: flex;	
+	font-size: 27px;
+	font-weight: 800;
+}
+
+.nav__link {
+	margin-left: 36px;
+	color: #585858;
+	text-decoration: none;
+	/*opacity: .75;
+
+	transition: opacity .2s;*/
+}
+
+.nav__link:first-child {
+	margin-left: 48px;
+}
+
+.nav__link:hover {
+/*	opacity: 1;*/
+}
+
+
+/* Intro */
+
+.intro {
+	height: 100vh;
+	background: #31344e url("./img/intro.png") center no-repeat;
+	background-size: cover;
+}
+
+
+/* 0.36 */
